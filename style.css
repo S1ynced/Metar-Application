@@ -1,0 +1,233 @@
+body {
+  margin: 0;
+}
+
+.metar-container {
+  position: relative;
+  margin: 50px auto;
+  background-color: #0e131b;
+  height: 500px;
+  width: 800px;
+}
+
+p {
+  font-family: "JetBrains Mono", monospace;
+  color: white;
+  font-size: 20px;
+}
+
+.weather-header {
+  position: relative;
+}
+
+.weather-header-title {
+  font-size: 20px;
+  position: absolute;
+  height: 25px;
+  margin: 15px 0 0 0;
+  left: 25px;
+  width: 700px;
+  background-color: #0e131b;
+}
+
+.weather-departure-container {
+  position: absolute;
+  background-color: #0e131b;
+  margin-top: 50px;
+  height: 215px;
+  width: 800px;
+}
+
+.departure-icao {
+  position: absolute;
+  margin: 0;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 18px;
+  top: 30px;
+  left: 40px;
+  height: 30px;
+  width: 100px;
+  text-align: center;
+  background-color: #2b313b;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.air-pressure-style {
+  position: absolute;
+  top: 105px;
+  left: 75px;
+  height: 30px;
+}
+
+.air-pressure-text {
+  font-family: "JetBrains Mono", monospace;
+  color: white;
+  position: absolute;
+  top: 145px;
+  left: 40px;
+  font-size: 16px;
+}
+
+.departure-air-pressure-data {
+  font-family: "JetBrains Mono", monospace;
+  color: white;
+  position: absolute;
+  top: 170px;
+  left: 60px;
+  font-size: 16px;
+}
+
+.wind-speed-style {
+  position: absolute;
+  top: 105px;
+  left: 290px;
+  height: 30px;
+}
+
+.wind-speed-text {
+  font-family: "JetBrains Mono", monospace;
+  color: white;
+  position: absolute;
+  top: 145px;
+  left: 260px;
+  font-size: 16px;
+}
+
+.departure-wind-speed-data {
+  font-family: "JetBrains Mono", monospace;
+  color: white;
+  position: absolute;
+  top: 170px;
+  left: 255px;
+  font-size: 16px;
+}
+
+.temperature-style {
+  position: absolute;
+  top: 105px;
+  left: 500px;
+  height: 30px;
+}
+
+.temperature-text {
+  font-family: "JetBrains Mono", monospace;
+  color: white;
+  position: absolute;
+  top: 145px;
+  left: 455px;
+  font-size: 16px;
+}
+
+.departure-temperature-data {
+  font-family: "JetBrains Mono", monospace;
+  color: white;
+  position: absolute;
+  top: 170px;
+  left: 490px;
+  font-size: 16px;
+}
+
+.dew-point-style {
+  position: absolute;
+  top: 105px;
+  left: 700px;
+  height: 30px;
+}
+
+.dew-point-text {
+  font-family: "JetBrains Mono", monospace;
+  color: white;
+  position: absolute;
+  top: 145px;
+  left: 670px;
+  font-size: 16px;
+}
+
+.departure-dew-point-data {
+  font-family: "JetBrains Mono", monospace;
+  color: white;
+  position: absolute;
+  top: 170px;
+  left: 695px;
+  font-size: 16px;
+}
+
+.horizontal-rule-style {
+  position: absolute;
+  color: #2b313b;
+  left: 50px;
+  width: 700px;
+  top: 275px;
+  margin: 0;
+  border-style: dotted;
+  border-width: 4px;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+.weather-arrival-container {
+  font-family: "JetBrains Mono", monospace;
+  color: white;
+  position: absolute;
+  background-color: #0e131b;
+  margin-top: 285px;
+  height: 215px;
+  width: 800px;
+}
+
+.arrival-icao {
+  position: absolute;
+  margin: 0;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 18px;
+  top: 30px;
+  left: 40px;
+  height: 30px;
+  width: 100px;
+  text-align: center;
+  background-color: #2b313b;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.arrival-air-pressure-data {
+  font-family: "JetBrains Mono", monospace;
+  color: white;
+  position: absolute;
+  top: 170px;
+  left: 60px;
+  font-size: 16px;
+}
+
+.arrival-wind-speed-data {
+  font-family: "JetBrains Mono", monospace;
+  color: white;
+  position: absolute;
+  top: 170px;
+  left: 255px;
+  font-size: 16px;
+}
+
+.arrival-temperature-data {
+  font-family: "JetBrains Mono", monospace;
+  color: white;
+  position: absolute;
+  top: 170px;
+  left: 490px;
+  font-size: 16px;
+}
+
+.arrival-dew-point-data {
+  font-family: "JetBrains Mono", monospace;
+  color: white;
+  position: absolute;
+  top: 170px;
+  left: 695px;
+  font-size: 16px;
+}
