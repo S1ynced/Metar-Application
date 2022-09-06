@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Metar-Application</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<script type="text/javascript" src="config.js"></script>
+
+    <!-- JQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="metar-container">
+      <div class="weather-header">
+        <p class="weather-header-title">Weather</p>
+      </div>
+
+      <!-- Departure ICAO Information -->
+      <div class="weather-departure-container">
+        <div class="departure-input">
+          <input
+            type="text"
+            class="departure-icao"
+            placeholder="ICAO"
+            maxlength="4"
+          />
+        </div>
+
+        <div class="air-pressure-container">
+          <img
+            class="air-pressure-style"
+            src="images/air-pressure.png"
+            alt="air-pressure"
+          />
+        </div>
+
+        <div class="wind-speed-container">
+          <img
+            class="wind-speed-style"
+            src="images/wind-speed.png"
+            alt="wind-speed"
+          />
+        </div>
+
+        <div class="temperature-container">
+          <img
+            class="temperature-style"
+            src="images/temperature.png"
+            alt="temperature"
+          />
+        </div>
+
+        <div class="dew-point-container">
+          <img
+            class="dew-point-style"
+            src="images/dew-point.png"
+            alt="dew-point"
+          />
+        </div>
+
+        <div class="air-pressure-text">
+          <span>Air Pressure</span>
+        </div>
+
+        <div class="wind-speed-text">
+          <span>Wind Speed</span>
+        </div>
+
+        <div class="temperature-text">
+          <span>Temperature</span>
+        </div>
+
+        <div class="dew-point-text">
+          <span>Dew Point</span>
+        </div>
+
+        <!-- API Values Go In Here -->
+        <div class="air-pressure-data-container">
+          <span class="departure-air-pressure-data"></span>
+        </div>
+
+        <div class="wind-speed-data-container">
+          <span class="departure-wind-speed-data"></span>
+        </div>
+
+        <div class="temperature-data-container">
+          <span class="departure-temperature-data"></span>
+        </div>
+
+        <div class="dew-point-data-container">
+          <span class="departure-dew-point-data"></span>
+        </div>
+      </div>
+
+      <hr class="horizontal-rule-style" />
+
+      <!-- Arrival ICAO Information -->
+      <div class="weather-arrival-container">
+        <div class="arrival-input">
+          <input
+            type="text"
+            class="arrival-icao"
+            placeholder="ICAO"
+            maxlength="4"
+          />
+        </div>
+
+        <div class="air-pressure-container">
+          <img
+            class="air-pressure-style"
+            src="images/air-pressure.png"
+            alt="air-pressure"
+          />
+        </div>
+
+        <div class="wind-speed-container">
+          <img
+            class="wind-speed-style"
+            src="images/wind-speed.png"
+            alt="wind-speed"
+          />
+        </div>
+
+        <div class="temperature-container">
+          <img
+            class="temperature-style"
+            src="images/temperature.png"
+            alt="temperature"
+          />
+        </div>
+
+        <div class="dew-point-container">
+          <img
+            class="dew-point-style"
+            src="images/dew-point.png"
+            alt="dew-point"
+          />
+        </div>
+
+        <div class="air-pressure-text">
+          <span>Air Pressure</span>
+        </div>
+
+        <div class="wind-speed-text">
+          <span>Wind Speed</span>
+        </div>
+
+        <div class="temperature-text">
+          <span>Temperature</span>
+        </div>
+
+        <div class="dew-point-text">
+          <span>Dew Point</span>
+        </div>
+
+        <!-- API Values Go In Here -->
+        <div class="air-pressure-data-container">
+          <span class="arrival-air-pressure-data"></span>
+        </div>
+
+        <div class="wind-speed-data-container">
+          <span class="arrival-wind-speed-data"></span>
+        </div>
+
+        <div class="temperature-data-container">
+          <span class="arrival-temperature-data"></span>
+        </div>
+
+        <div class="dew-point-data-container">
+          <span class="arrival-dew-point-data"></span>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
