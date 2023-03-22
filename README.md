@@ -13,7 +13,7 @@ This is a web application that displays METAR data for airports around the world
 - Open the index.html file in a web browser
 - Enter an airport ICAO code or airport name in the search bar
 - The latest METAR data will be displayed
-- Note: In order to use the application, you will need to sign up for an API key from avwx.rest. Once you have your API key, add it to the metar-application/index.js file on line 22 and 67.
+- Note: In order to use the application, you will need to sign up for an API key from avwx.rest. Once you have your API key, add it to the metar-application/index.js file on lines 22 and 67.
 
 # Contributing
 Contributions are welcome! Please open an issue or pull request if you would like to contribute to the project.
