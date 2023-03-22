@@ -4,7 +4,7 @@ This is a web application that displays METAR data for airports around the world
 
 # Features
 
-- Search for an airport by ICAO code or airport name
+- Search for an airport by ICAO code.
 - Displays the latest METAR data for the airport, including temperature, dewpoint, wind speed and direction.
 
 # Installation and Usage
