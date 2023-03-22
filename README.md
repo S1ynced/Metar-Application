@@ -2,8 +2,9 @@
 
 This is a web application that displays METAR data for airports around the world. It uses JavaScript, HTML, and CSS for the front-end, and the avwx.rest API to fetch the METAR data.
 
-# Features
+-![SkyCheck-demo](https://user-images.githubusercontent.com/100841251/226822701-a9912ef5-e55a-4927-bd0f-f22b0fb2e1ac.gif)
 
+# Features
 - Search for an airport by ICAO code.
 - Displays the latest METAR data for the airport, including temperature, dewpoint, wind speed and direction.
 
@@ -13,8 +14,6 @@ This is a web application that displays METAR data for airports around the world
 - Enter an airport ICAO code or airport name in the search bar
 - The latest METAR data will be displayed
 - Note: In order to use the application, you will need to sign up for an API key from avwx.rest. Once you have your API key, add it to the metar-application/index.js file on line 22 and 67.
-
-# Screenshots
 
 # Contributing
 Contributions are welcome! Please open an issue or pull request if you would like to contribute to the project.
