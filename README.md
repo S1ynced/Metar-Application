@@ -2,7 +2,7 @@
 
 This is a web application that displays METAR data for airports around the world. It uses JavaScript, HTML, and CSS for the front-end, and the avwx.rest API to fetch the METAR data.
 
--![SkyCheck-demo](https://user-images.githubusercontent.com/100841251/226822701-a9912ef5-e55a-4927-bd0f-f22b0fb2e1ac.gif)
+![SkyCheck-demo](https://user-images.githubusercontent.com/100841251/226822701-a9912ef5-e55a-4927-bd0f-f22b0fb2e1ac.gif)
 
 # Features
 - Search for an airport by ICAO code.
